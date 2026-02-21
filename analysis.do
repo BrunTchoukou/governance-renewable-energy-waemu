@@ -1,5 +1,5 @@
 /****************************************************************************************
- Master's thesis   : Governance and Renewable Energy Production in WAEMU
+ Title   : Governance and Renewable Energy Production in WAEMU
  Author    : Brun-Urick TCHOUKOU
  Institution: University of Abomey-Calavi
  Software  : Stata 16
@@ -578,5 +578,6 @@ cells("b(fmt(4)) p(fmt(4))") replace title("Governance Causality with REP")
 
 esttab rep_to_* using "causalite_rep_governance.rtf", ///
 cells("b(fmt(4)) p(fmt(4))") replace title("REP causality with Governance")
+
 
 log close
