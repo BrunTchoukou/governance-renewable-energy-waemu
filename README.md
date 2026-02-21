@@ -5,26 +5,6 @@ This repository contains the Stata-based panel econometric analysis of the effec
 
 The study examines the role of governance dimensions, namely control of corruption, government effectiveness, and political stability, in renewable energy production, using PMG-ARDL, FMOLS, DOLS estimations, and panel causality tests.
 
-## Project Structure
-
-The repository is organized as follows:
-
-governance-renewable-energy-waemu/
-│
-├─ do/ # Stata do-files
-│ └─ analysis.do
-│
-├─ data/ # Input data files
-│ └─ Data.xlsx
-│
-├─ output/ # Results and exported tables
-│ ├─ resultats_fmols_pvalues.rtf
-│ ├─ resultats_dols_pvalues.rtf
-│ ├─ causalite_governance_rep.rtf
-│ └─ causalite_rep_governance.rtf
-│
-└─ README.md # This file
-
 ## Requirements
 
 - Stata 16 or higher
